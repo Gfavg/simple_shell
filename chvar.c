@@ -99,12 +99,12 @@ int rpl_alias(my_gf *gfav)
 }
 
 /**
- * rpl_vars - replaces vars in the tokenized string
+ * rpl_var - replaces vars in the tokenized string
  * @gfav: the parameter struct
  *
  * Return: 1 if replaced, 0 otherwise
  */
-int rpl_vars(my_gf *gfav)
+int rpl_var(my_gf *gfav)
 {
 	int i = 0;
 	my_list *Newnode;

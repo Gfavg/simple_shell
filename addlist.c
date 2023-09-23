@@ -75,12 +75,12 @@ my_list *addNode_end(my_list **head, const char *str, int num)
 }
 
 /**
- * print_list_str - prints only the str element of a my_list linked list
+ * pr_list_ele - prints only the str element of a my_list linked list
  * @h: pointer to first node
  *
  * Return: size of list
  */
-size_t print_list_str(const my_list *h)
+size_t pr_list_ele(const my_list *h)
 {
 	size_t i = 0;
 
@@ -135,12 +135,12 @@ int delnode_n(my_list **head, unsigned int index)
 }
 
 /**
- * free_list - frees all nodes of a list
+ * frList - frees all nodes of a list
  * @head_ptr: address of pointer to head node
  *
  * Return: void
  */
-void free_list(my_list **head_ptr)
+void frList(my_list **head_ptr)
 {
 	my_list *node, *next_n, *head;
 
